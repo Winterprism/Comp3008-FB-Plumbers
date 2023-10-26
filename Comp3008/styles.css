@@ -1,0 +1,214 @@
+/* styles.css */
+
+/************************************************/
+/*  CSS for the header on main page             */
+/*                                              */
+/************************************************/
+
+/* format for header */
+header {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo image */
+header img {
+    width: 50px; 
+}
+
+/* Style buttons so they don't look like list iteams*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+/* add spacing between buttons*/
+nav li {
+    margin-right: 20px;
+}
+
+/* make buttons look nice*/
+nav a {
+    text-decoration: none; 
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid #000000; 
+    border-radius: 0; 
+    box-shadow: 3px 3px 5px #3f3d3d; 
+}
+
+
+/************************************************/
+/*  CSS for main pages image section            */
+/*  class main_pg                               */
+/************************************************/
+
+/* Style the text overlaying image */
+.text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 100%;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 48px;
+}
+
+.text p {
+    font-size: 30px;
+}
+
+/*style find a plumber button*/
+.main-pg-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c93232;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/*make image fit whole page*/
+.main_pg img {
+    width: 100%; 
+}
+
+/************************************************/
+/*  CSS class middle                            */
+/************************************************/
+
+/* Style to make individual columns */
+.middle {
+    display: flex; 
+    border: 4px solid #000000;
+}
+
+.column {
+    width: 50%; 
+    padding: 20px;
+    background-color: #c93232; 
+}
+
+.column h2 {
+    font-size: 24px;
+}
+
+.column p {
+    font-size: 18px;
+}
+
+/************************************************/
+/*  CSS class bottom                            */
+/************************************************/
+
+/* Style the text at bottom of page */
+.text3 {
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+/************************************************/
+/*  CSS for join-pg                             */
+/************************************************/
+
+
+.join-pg-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c93232;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/************************************************/
+/*  CSS class middle2                            */
+/************************************************/
+
+/* Style to make individual columns */
+.middle2 {
+    display: flex; 
+}
+
+.column2 {
+    width: 50%; 
+    padding: 20px;
+    background-color: #ffffff; 
+    border: 2px solid #000000;
+}
+
+.column2 h2 {
+    font-size: 24px;
+}
+
+.column2 p {
+    font-size: 18px;
+}
+
+/************************************************/
+/*  CSS class bottom                            */
+/************************************************/
+
+.bottom{
+    background-color: #acacac;
+    border: 2px solid #000000;
+}
+
+.column3 {
+    display: inline-block; /* Set columns side by side */
+    width: 48%; /* Adjust the width to control column spacing */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.column3 label,.column3 input {
+    display: block; /* Make label and input stack vertically */
+}
+
+.column3 h2 {
+    font-size: 24px;
+}
+
+.column3 p {
+    font-size: 18px;
+}
+
+/*make submit button*/
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c93232;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+
+/* css for footer*/
+footer{
+    background-color: #c93232;
+    padding: 5px;    
+    color: #fff;
+    border: 2px solid #000;
+}
