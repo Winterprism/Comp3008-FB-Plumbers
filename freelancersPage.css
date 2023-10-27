@@ -1,0 +1,45 @@
+/* styles.css */
+
+/************************************************/
+/*  CSS for the header on main page             */
+/*                                              */
+/************************************************/
+
+/* format for header */
+header {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo image */
+header img {
+    width: 50px; 
+}
+
+/* Style buttons so they don't look like list iteams*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+/* add spacing between buttons*/
+nav li {
+    margin-right: 20px;
+}
+
+/* make buttons look nice*/
+nav a {
+    text-decoration: none; 
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid #000000; 
+    border-radius: 0; 
+    box-shadow: 3px 3px 5px #3f3d3d; 
+}
