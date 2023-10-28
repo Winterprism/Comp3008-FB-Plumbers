@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="company_profiles.css">
+		<title></title>
+		
+		<script>
+		        function showCompanyInfo() {
+		             alert("Email: Support@PlumbingMadeBetterltd.com \n Contact Number: (888) 888-88888 \n Website: PlumbingMadeBetterltd.com");
+		        }
+				
+				function showEmployeeInfo1() {
+				     alert("Email: LiamBrooks@plumberforeverltd.com \n Contact Number: (111) 888-88888");
+				}
+				
+				function showEmployeeInfo2() {
+				     alert("Email: EmmaSullivan@plumberforeverltd.com \n Contact Number: (222) 888-88888");
+				}
+		    </script>
+	</head>
+	
+	<body>
+		
+		<!-- navigation bar -->
+		<div id="title">
+			
+			<!-- logo -->
+			<div id="title_left">
+				<img id="logo" src="./logo.jpg"/>
+			</div>
+			
+			<!-- Other information -->
+			<div id="title_right">
+				<span id="logo_name">F&B Plumbers</span>
+				
+				<button id="home">Home</button>
+				<button id="find_plumber">Find a Plumber</button>		
+				<button id="join_us">Join Us</button>
+			</div>
+			
+		</div>
+		
+		
+		
+		<!-- Company Information -->
+		<div id="company_info">
+			
+			<!-- Company information, prices, and service ratings -->
+			<div id = "company_info_1">
+				<span id="company_title">Plumbing Made Better LTD. </span>
+				<img id="price1" src="./price-badge.png"/>
+				<span id="star"> ★ ★ ★ ★ ☆</span>
+				<!-- Get details -->
+				<button id="contact_info" onclick="showCompanyInfo()">Contact Info</button>
+			</div>
+			
+			<!-- More reviews from companies -->
+			<div id="company_info_2">
+				<span id="contact_us">About us: Lowest priced repairer.</span>
+			</div>
+			
+			<!-- Maximum and average prices -->
+			<div id="company_info_3_1">
+				<span id="contact_us">Avg: $267</span>
+				<span id="contact_us">Avg: $198</span>
+			</div>
+			
+			<div id="company_info_3_2">
+				<label id="label_Leaky">Leaky faucet</label>
+				<label id="label_Toilet">Toilet Repair</label>
+			</div>
+			
+			<!-- Specialized maintenance content -->
+			<div id="company_info_4">
+				<label id="label1">#Ceritified</label>
+				<label id="label2">#Established</label>
+				<label id="label3">#MoneyBackGuarantee</label>
+				<label id="label3">#PanoramaHills</label>
+			</div>
+		</div>
+		
+		
+		
+		<!-- Employee Information -->
+		<div id="employee_info">
+			<label id="Employee_label">Employee</label>
+			
+			<!-- Employee 1 -->
+			<div id="employee_company_info">
+				<div id="Right_employee">
+					<div id="Right_employee_1">
+						<img id="e1" src="logo.jpg"/>
+						<button id="contact_info_right" onclick="showEmployeeInfo1()">Contact Info</button>
+						<br>
+					</div>
+					<div id="Right_employee_2">
+						<span id="e1_name">Liam Brooks</span><br>
+						<span>Three years of work experience</span><br>
+						<br>
+						<label id="label_for_employee1">#Leaky faucet</label>
+					</div>
+				</div>
+				
+				<!-- Employee 2 -->
+				<div id="Left_employee">
+					<div id="Left_employee_1">
+						<img id="e2" src="logo.jpg"/>
+						<button id="contact_info_left" onclick="showEmployeeInfo2()">Contact Info</button>
+						<br>
+					</div>
+					<div id="Left_employee_2">
+						<span id="e2_name">Emma Sullivan</span><br>
+						<span>Two years of work experience</span><br>
+						<br>
+						<label id="label_for_employee2">#Leaky faucet</label>
+				</div>
+			</div>		
+		</div>
+		
+		
+		<!-- User feedback -->
+		<div id="feedback">
+			<label id="feedback_label">Reviews</label>
+			
+			<!-- For processing formats -->
+			<br>
+			<br>
+			<span id="feedback_name">Add a Review</span><br>
+			<textarea id="feedback_content"></textarea><br>
+			<button id="feedback_submit">submit</button>
+		</div>
+		
+		
+		
+		<!-- More information for employees -->
+		<div id="employee_more_info">
+			
+			<!-- The left side of the information column -->
+			<div id="employee_more_info_left">
+				
+				<!-- Employee 1 -->
+				<div id="e_m_1">
+					<div id="e_m_1_img"></div>
+					<div id="e_m_1_info">
+						<img id="e_m_1_e1" src="./logo.jpg"/>
+						<span id="e_m_1_e1_name"> Caleb Hunter</span>
+						<span id="e_m_1_e1_star"> ★ ★ ☆ ☆ ☆</span>
+						<br>
+						<br>
+						<label id="e_m_1_e1_content">Seven years of work experience</label>
+					</div>
+				</div>
+
+				<!-- Employee 2 -->
+				<div id="e_m_2">
+					<div id="e_m_1_img"></div>
+					<div id="e_m_1_info">
+						<img id="e_m_1_e1" src="./logo.jpg"/>
+						<span id="e_m_1_e1_name"> Gavin Porter</span>
+						<span id="e_m_1_e1_star"> ★ ★ ★ ☆ ☆</span>
+						<br>
+						<br>
+						<label id="e_m_1_e1_content">Two years of work experience</label>
+					</div>
+				</div>
+				
+				<!-- Employee 3 -->
+				<div id="e_m_3">
+					<div id="e_m_1_img"></div>
+					<div id="e_m_1_info">
+						<img id="e_m_1_e1" src="./logo.jpg"/>
+						<span id="e_m_1_e1_name"> Ethan Walker</span>
+						<span id="e_m_1_e1_star"> ★ ★ ★ ★ ☆</span>
+						<br>
+						<br>
+						<label id="e_m_1_e1_content">Five years of work experience</label>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<!-- The right side of the information column -->
+			<div id="employee_more_info_right">
+
+		</div>
+		
+		
+	</body>
+</html>
