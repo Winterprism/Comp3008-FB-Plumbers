@@ -8,14 +8,14 @@
 
   
   /* Style the buttons inside the tab */
-  .container {
+.container {
     width: 90%;
     max-width: 600px;
     margin-left: 180px;
    
 }
 
-  .tab button{
+.tab button{
     background-color: grey;
     float: left;
     border: none;
@@ -25,9 +25,14 @@
     transition: 0.3s;
     font-size: 17px;
     margin-right: 10px;
-  }
+}
 
-  .infoContainer {
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Styles the container with the companies */
+.infoContainer {
     width: 1000px;
     min-height: 500px;
     background-color: rgba(247, 247, 247, 0.897);
@@ -38,6 +43,8 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+/* styling for the company container */
 .companyContainer {
   width: 900px;
   height: 100px;
@@ -48,10 +55,6 @@
   margin-top: 20px;
 }
 
-  .tab button:hover {
-    background-color: #ddd;
-  }
-
 .company {
     background-color: #ddd4d4;
     width:fit-content;
@@ -61,6 +64,7 @@
     margin-top:5px;
   }
 
+/* styling for tags */
 .companyTag {
     background-color: #f2f2f2;
     padding: 5px;
