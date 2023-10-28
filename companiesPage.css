@@ -87,7 +87,7 @@ nav a {
 }
 .companyContainer {
   width: 900px;
-  height: 150px;
+  height: 100px;
   background-color: white;
   border: 2px solid grey;
   border-radius: 10px;
@@ -99,6 +99,27 @@ nav a {
     background-color: #ddd;
   }
 
+.company {
+    background-color: #ddd4d4;
+    width:fit-content;
+    padding: 5px;
+    border-radius: 5px solid black;  
+    margin-left: 10px; 
+    margin-top:5px;
+  }
+
+.companyTag {
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 5px;  
+    margin-left: 10px; 
+    margin-top: 15px;
+  }
+
+  .companyTags {
+    display: flex;
+    gap: 10px;
+  }
   .see-more-button{
     display: inline-block;
     padding: 0px 5px;
@@ -111,6 +132,53 @@ nav a {
     margin-left: 60px;
     margin-top: 5px;
 }
+
+/* Style the price badges */
+.price-badge-container {
+  display:inline-block;
+}  
+.price-badge {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+/* Style the top right stars */
+.profile-header-right {
+  display: flex;
+  align-items: center;
+  margin-left: 440px;
+  font-size: 20px;
+}
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.profile-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.profile-bottom-right {
+  display: flex;
+  align-items: center;
+}
+
+.see-more-button-company{
+  display: inline-block;
+  background-color: #df4747;
+  color: #fff;
+  border-radius: 10px;
+  border: 2px solid #000;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+
+
   
 
   
