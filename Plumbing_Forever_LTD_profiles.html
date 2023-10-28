@@ -30,7 +30,7 @@
 				
 				
 				function addReview() {
-				  const reviewerName = document.getElementById("feedback_content").value;
+				  const reviewerName = document.getElementById("feedback_content_name").value;
 				  const reviewText = document.getElementById("feedback_content").value;
 				  if (reviewText && reviewerName && rating > 0) {
 				
@@ -171,7 +171,8 @@
 			<br>
 			<span id="feedback_name">Add a Review</span><br>
 			
-			
+			<span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+			<textarea id="feedback_content_name">name</textarea><br>
 			<textarea id="feedback_content"></textarea><br>
 			
 			<div id="feedback_stars">
