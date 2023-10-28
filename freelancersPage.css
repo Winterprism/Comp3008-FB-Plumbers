@@ -44,6 +44,12 @@ nav a {
     box-shadow: 3px 3px 5px #3f3d3d; 
 }
 
+/* Change the background and text color when clicked */
+nav a:active {
+  background-color: #c93232; 
+  color: #fff;
+}
+
 .freelance-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
