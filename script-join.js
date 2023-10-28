@@ -24,5 +24,13 @@ function showjoinUsPopup() {
 function closejoinUsPopup() {
     document.getElementById("joinUsPopup").style.display = "none";
 }
-  
+
+function scrollToBottom() {
+  event.preventDefault();
+
+  window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: 'smooth'
+  });
+}
   
