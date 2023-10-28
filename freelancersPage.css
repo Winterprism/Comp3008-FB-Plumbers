@@ -1,5 +1,6 @@
 /* styles.css */
 
+/* style for displaying the different profiles */
 .freelance-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -15,6 +16,7 @@
   margin-top: 20px
 }
 
+/* style for the profile picture */
 .profile-pic-container {
     display: inline;
   } 
@@ -30,10 +32,12 @@
     margin-top:10px;
   }
 
+  /* style for the stars */
 .stars {
     padding-left: 55px;
   }
 
+  /* style for the tags */
 .tags-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
@@ -51,3 +55,19 @@
     display: flex;
     gap: 10px;
   }
+ /* style for see more button */
+  .see-more-button{
+    display: inline-block;
+    padding: 0px 5px;
+    background-color: rgb(224, 80, 80);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.see-more-button:hover{
+  background-color: #ff0000da;
+}

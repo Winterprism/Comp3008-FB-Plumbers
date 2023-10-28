@@ -73,18 +73,6 @@
     display: flex;
     gap: 10px;
   }
-  .see-more-button{
-    display: inline-block;
-    padding: 0px 5px;
-    background-color: #c93232;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 10px;
-    border: 2px solid #000;
-    font-weight: bold;
-    margin-left: 60px;
-    margin-top: 5px;
-}
 
 /* Style the price badges */
 .price-badge-container {
@@ -95,6 +83,15 @@
   height: 30px;
   margin-right: 5px;
 }
+
+/* style the header for the company */
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
 /* Style the top right stars */
 .profile-header-right {
   display: flex;
@@ -102,12 +99,8 @@
   margin-left: 440px;
   font-size: 20px;
 }
-.profile-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
+
+/* Style the bottom for the tags and see more button*/
 .profile-bottom {
   display: flex;
   align-items: center;
@@ -120,9 +113,10 @@
   align-items: center;
 }
 
+/* see more button for the company page */
 .see-more-button-company{
   display: inline-block;
-  background-color: #df4747;
+  background-color: rgb(224, 80, 80);
   color: white;
   border-radius: 10px;
   border: 2px solid #000;
@@ -130,6 +124,9 @@
   margin-top: 5px;
 }
 
+.see-more-button-company:hover{
+  background-color: #ff0000da;
+}
 
 
   
