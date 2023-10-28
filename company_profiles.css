@@ -314,6 +314,12 @@
 	height: 35%;
 }
 
+#feedback_submit{
+	float: right;
+	margin-right: 12%;
+	margin-top: 0.5%;
+}
+
 
 
 
