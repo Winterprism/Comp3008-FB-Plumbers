@@ -8,7 +8,7 @@
 
 .freelanceContainer{
   width: 200px;
-  height: 250px;
+  height: 300px;
   background-color: white;
   border: 2px solid grey;
   border-radius: 10px;
@@ -34,8 +34,22 @@
 
   /* style for the stars */
 .stars {
-    padding-left: 55px;
+    padding-left: 50px;
+    color: yellow;
+    font-size:20px ;
   }
+
+  /* Style the price badges */
+.price-badge-container-freelancer{
+  display:inline-block;
+  margin-left: 55px;
+  color: yellow;
+}  
+.price-badge-freelancer {
+  width: 25px;
+  height: 25px;
+  display: center;
+}
 
   /* style for the tags */
 .tags-grid {
@@ -55,6 +69,7 @@
     display: flex;
     gap: 10px;
   }
+  
  /* style for see more button */
   .see-more-button{
     display: inline-block;
