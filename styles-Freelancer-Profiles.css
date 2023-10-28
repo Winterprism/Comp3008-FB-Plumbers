@@ -1,0 +1,168 @@
+/* styles-Freelancer-Profiles.css */
+
+/************************************************/
+/*  CSS for the header on the main page         */
+/************************************************/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+  position: relative;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+  vertical-align: middle;
+}
+.header-title {
+  margin-left: 10px;
+}
+
+/* top right button container */
+.top-right-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Style the buttons */
+.button-style {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border: 2px solid #000000;
+  border-radius: 0;
+  box-shadow: 3px 3px 5px #3f3d3d;
+}
+
+/************************************************/
+/*  CSS for profile section                     */
+/************************************************/
+
+/* Style the profile container*/
+.profile-container {
+  width: 80%;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.profile-name {
+  text-align: left;
+}
+
+/* Style the top right stars */
+.profile-header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Style the price badges */
+.price-badge-container {
+  display: inline;
+  margin-right: 550px;
+}  
+.price-badge {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+/************************************************/
+/*  CSS for information section                 */
+/************************************************/
+
+/* Style the information container */
+.info-section {
+  margin-bottom: 20px;
+}
+.label {
+  font-weight: bold;
+}
+.tags {
+  display: flex;
+  gap: 10px;
+}
+.services {
+  display: inline-block;
+  margin-right: 20px;
+}
+.price {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.tag {
+  background-color: #f2f2f2;
+  padding: 5px;
+  border-radius: 5px;   
+}
+
+/************************************************/
+/*  CSS for review section                      */
+/************************************************/
+
+/* Style the review container */
+.review-section {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+#reviewList li {
+  margin-bottom: 20px;
+}
+
+/* Style the review stars */
+.stars {
+  display: inline-block;
+}
+.ratingStar {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/************************************************/
+/*  CSS for the contact info button popup       */
+/************************************************/
+
+/* Style the popup box*/
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+.popup-content {
+  background-color: #ccc;
+  margin: 15% auto;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+.close-popup {
+  cursor: pointer;
+  float: right;
+  font-size: 28px;
+}

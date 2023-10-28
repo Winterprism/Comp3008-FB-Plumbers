@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nicko Dan's Profile</title>
+  <link rel="stylesheet" type="text/css" href="styles-Freelancer-Profiles.css">
+</head>
+<body>
+
+  <div class="header">
+    <img src="logo.jpg" alt="F&B Plumbers Logo" class="logo">
+    <span class="header-title">F&B Plumbers</span>
+    <div class="top-right-buttons">
+      <a href="index.html"><button class="button-style">Home</button></a>
+      <a href="companiesPage.html"><button class="button-style">Find a Plumber</button></a>
+      <a href="join.html"><button class="button-style">Join Us</button></a>
+    </div>
+  </div>
+
+
+  <div class="profile-container">
+    <div class="profile-header">
+      <span class="profile-name">Nicko Dan's Profile</span>
+      <span class="price-badge-container">
+        <img src="price-badge.png" class="price-badge">
+        <img src="price-badge.png" class="price-badge">
+        <img src="price-badge.png" class="price-badge">
+      </span>
+      <div class="profile-header-right">
+        <span class="stars">
+          ★ ★ ★ ☆ ☆
+        </span>
+        <button onclick="showContactInfo()" class="button-style">Contact Info</button>
+      </div>
+    </div>
+
+
+    <div class="info-section">
+      <div class="label">About Me:</div>
+      <p>Hello, I'm Nicko Dan, your reliable freelance plumber. Efficient service at fair prices. Reach out for any plumbing issue!</p>
+      <div class="tags">
+        <div class="services">
+          <span class="price">Avg: $250</span>
+          <span class="tag">Leaky faucet</span>
+        </div>
+        <div class="services">
+          <span class="price">Avg: $350</span>
+          <span class="tag">Toilet repair</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-section">
+      <div class="label">Tags:</div>
+      <div class="tags">
+        <span class="tag">#Certified</span>
+        <span class="tag">#Piping</span>
+        <span class="tag">#Speed</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="review-section">
+    <div class="label">Add a Review:</div>
+    <input type="text" id="reviewerName" placeholder="Enter your name"><br>
+    <textarea id="newReview" placeholder="Write your review here"></textarea>
+    <div class="stars">
+      <span class="ratingStar" onclick="rate(1)">★</span>
+      <span class="ratingStar" onclick="rate(2)">★</span>
+      <span class="ratingStar" onclick="rate(3)">★</span>
+      <span class="ratingStar" onclick="rate(4)">★</span>
+      <span class="ratingStar" onclick="rate(5)">★</span>
+    </div>
+    <button onclick="addReview()" class="button-style">Add Review</button>
+
+
+    <div class="label">Reviews:</div>
+    <ul id="reviewList">
+      <li>Reviewer: Emily, Rating: 2 stars<br>Review: Quick service but quality was lacking</li>
+      <li>Reviewer: Frank, Rating: 4 stars<br>Review: Good work and fairly priced, but room for improvement.</li>
+    </ul>
+  </div>
+  
+  
+  <div id="contactInfoPopup" class="popup">
+    <div class="popup-content">
+      <span class="close-popup" onclick="closeContactInfo()">&times;</span>
+      <p>Phone: (777)-777-7777</p>
+      <p>Email: nicko.dan@gmail.com</p>
+    </div>
+  </div>
+
+
+  <script src="script-Freelancer-Profiles.js"></script>
+</body>
+</html>
