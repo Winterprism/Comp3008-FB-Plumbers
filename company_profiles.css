@@ -1,0 +1,385 @@
+#title_left{
+	float: left;
+	width: 5%;
+	height: 15%;
+	margin-bottom: 1%;
+}
+#title_right{
+	float: right;
+	width: 95%;
+	height: 15%;
+	margin-bottom: 1%;
+}
+
+
+#logo_name{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: cursive;
+}
+
+#home{
+	margin-left: 53%;
+	margin-top: 1.3%;
+	
+	color: #000000;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	border: 2px solid #000000; 
+	border-radius: 0; 
+	box-shadow: 5px 5px 5px #3f3d3d;
+}
+
+#find_plumber{
+	margin-left: 1%;
+	
+	color: #000000;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	border: 2px solid #000000; 
+	border-radius: 0; 
+	box-shadow: 5px 5px 5px #3f3d3d;
+}
+
+#join_us{
+	margin-left: 1%;
+	
+	color: #000000;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	border: 2px solid #000000; 
+	border-radius: 0; 
+	box-shadow: 5px 5px 5px #3f3d3d;
+}
+
+
+
+
+
+/* div Company */
+#company_info{
+	clear: both;
+	width: 80%;
+	height: 230px;
+	margin-left: 10%;
+	border: 2px solid black;
+}
+
+#company_title{
+	clear: both;
+	padding-left: 2%;
+	margin-bottom: 1px;
+}
+
+#price1{
+	padding-top: 2%;
+	margin-left: 1%;
+	width: 40px;
+	height: 30px;
+}
+
+#price2{
+	clear: both;
+	padding-top: 2%;
+	width: 40px;
+	height: 30px;
+}
+
+#price3{
+	clear: both;
+	padding-top: 2%;
+	width: 40px;
+	height: 30px;
+}
+
+#star{
+	font-size: 20px;
+	margin-left: 2%;
+}
+
+#contact_info{
+	margin-left: 48%;
+	
+	color: #000000;
+	background-color: #ffffff;
+	padding: 5px 10px;
+	border: 2px solid #000000; 
+	border-radius: 0; 
+	box-shadow: 5px 5px 5px #3f3d3d;
+}
+
+#contact_us{
+	margin-left: 2%;
+}
+
+#company_info_3_1{
+	margin-top: 1%;
+	text-decoration: underline;
+}
+
+#company_info_3_2{
+	margin-top: 0.1%;
+}
+
+#label_Leaky{
+	margin-left: 2%;
+	border: 2px solid #000000;
+	border-radius: 0;
+	box-shadow: 1px 2px 2px #3f3d3d;
+}
+
+#label_Toilet{
+	margin-left: 2%;
+	border: 2px solid #000000;
+	border-radius: 0;
+	box-shadow: 1px 2px 2px #3f3d3d;
+}
+
+
+#company_info_4{
+	margin-top: 3%;
+}
+
+#label1{
+	margin-left: 2%;
+	border: 2px solid #000000;
+	border-radius: 0;
+	box-shadow: 1px 2px 2px #3f3d3d;
+}
+
+#label2{
+	margin-left: 2%;
+	border: 2px solid #000000;
+	border-radius: 0;
+	box-shadow: 1px 2px 2px #3f3d3d;
+}
+
+#label3{
+	margin-left: 2%;
+	border: 2px solid #000000;
+	border-radius: 0;
+	box-shadow: 1px 2px 2px #3f3d3d;
+}
+
+
+
+
+
+/* employee info */
+#employee_info{
+	clear: both;
+	margin-top: 2%;
+	width: 80%;
+	height: 220px;
+	margin-left: 8%;
+}
+
+#Employee_label{
+	margin-left: 2%;
+	
+	border: 2px solid #000000;
+	border-radius: 0;
+	box-shadow: 1px 2px 2px #3f3d3d;
+}
+
+#employee_company_info{
+	clear: both;
+}
+
+#e1{
+	clear: both;
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 4%;
+	margin-top: 4%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+#contact_info_right{
+	float: right;
+	font-size: 10px;
+	margin-top: 1.5%;
+	margin-right: 2%;
+}
+
+#Right_employee{
+	margin-left: 2%;
+	float: left;
+	margin-top: 1%;
+	border: 2px solid black;
+	width: 25%;
+	height: 160px;
+}
+
+#Left_employee{
+	float:left;
+	margin-left: 1%;
+	margin-top: 1%;
+	border: 2px solid black;
+	width: 25%;
+	height:160px;
+}
+#Right_employee_2{
+	margin-top: 15%;
+}
+
+#e1_br{
+	width: 15px;
+}
+
+#label_for_employee1{
+	margin-top: 100px;
+	margin-left: 3%;
+	border: 2px solid #000000;
+	border-radius: 0;
+	box-shadow: 1px 2px 2px #3f3d3d;
+}
+
+#e2{
+	clear: both;
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 4%;
+	margin-top: 4%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+#contact_info_left{
+	float: right;
+	font-size: 10px;
+	margin-top: 1.5%;
+	margin-right: 2%;
+}
+
+#Left_employee_2{
+	margin-top: 15%;
+}
+
+#label_for_employee2{
+	margin-top: 100px;
+	margin-left: 3%;
+	border: 2px solid #000000;
+	border-radius: 0;
+	box-shadow: 1px 2px 2px #3f3d3d;
+}
+
+
+
+
+#feedback{
+	width: 100%;
+	height: 100px;
+}
+
+#feedback_label{
+	clear: both;
+	margin-top: 50%;
+	margin-left: 2%;
+	
+	border: 2px solid #000000;
+	border-radius: 0;
+	box-shadow: 1px 2px 2px #3f3d3d;
+}
+
+
+
+
+/* feedback */
+#feedback{
+	clear: both;
+	margin-top: 18%;
+	width: 100%;
+	height: 190px;
+}
+
+#feedback_label{
+	clear: both;
+	margin-top: 50%;
+	margin-left: 2%;
+	border: 2px solid #000000;
+}
+
+#feedback_name{
+	clear: both;
+	margin-left: 4%;
+}
+
+#feedback_content{
+	margin-left: 8%;
+	width: 80%;
+	height: 35%;
+}
+
+
+
+
+
+
+/* employee_more_info */
+#employee_more_info{
+	clear: both;
+	margin-top: 1%;
+	width: 100%;
+	height: 300px;
+}
+
+#employee_more_info_left{
+	clear: both;
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 1%;
+	width: 45%;
+	height: 280px;
+}
+
+#employee_more_info_right{
+	float: right;
+	margin-top: 1%;
+	margin-right: 2%;
+	width: 45%;
+	height: 280px;
+}
+	
+#e_m_1_img{
+	float: left;
+}
+#e_m_1_info{
+	float: left;
+	width: 80%;
+}
+
+#e_m_1_e1{
+	clear: both;
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 4%;
+	margin-right: 5%;
+	margin-bottom: 4%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+#e_m_1_e1_name{
+	clear: both;
+	margin-left: 1%;
+	margin-top: 1%;
+	font-size: 30px;
+}
+
+#e_m_1_e1_star{
+	margin-left: 1%;
+	font-size: 20px;
+}
+
+#e_m_1_e1_content{
+	clear: both;
+	padding: 1%;
+	margin-top: 50%;
+	margin-left: 2%;
+	border: 2px solid #000000;
+}
