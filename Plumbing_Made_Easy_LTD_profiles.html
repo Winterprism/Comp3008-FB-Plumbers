@@ -6,16 +6,58 @@
 		<title></title>
 		
 		<script>
+				
 		        function showCompanyInfo() {
-		             alert("Email: Support@PlumbingMadeEasyltd.com \n Contact Number: (777) 777-7777 \n Website: PlumbingMadeEasyltd.com");
+		             alert("Email: Support@plumberforeverltd.com \n Contact Number: (555) 555-5555 \n Website: plumberforeverltd.com");
 		        }
 				
 				function showEmployeeInfo1() {
-				     alert("Email: ThomasGarcia@plumberforeverltd.com \n Contact Number: (111) 777-7777");
+				     alert("Email: JohnDeo@plumberforeverltd.com \n Contact Number: (111) 555-5555");
 				}
 				
 				function showEmployeeInfo2() {
-				     alert("Email: CharlesSmith@plumberforeverltd.com \n Contact Number: (222) 777-7777");
+				     alert("Email: EthanWilliams@plumberforeverltd.com \n Contact Number: (222) 555-5555");
+				}
+				
+				//function to set the review star colours
+				function rate(star) {
+				  rating = star;
+				  const stars = document.querySelectorAll('.ratingStar');
+				  stars.forEach((star, index) => {
+				    star.style.color = index < rating ? 'orange' : 'black';
+				  });
+				}
+				
+				
+				function addReview() {
+				  const reviewerName = document.getElementById("feedback_content").value;
+				  const reviewText = document.getElementById("feedback_content").value;
+				  if (reviewText && reviewerName && rating > 0) {
+				
+				    //Create a list and add a review to it and append it to the reviewList text area
+				    const reviewList = document.getElementById("reviewList");
+				    const newReview = document.createElement("li");
+				    
+				    //Seperating the name and star rating from the review into 2 div elements
+				    const reviewNameRatingDiv = document.createElement("div");
+				    reviewNameRatingDiv.textContent = `Name: ${reviewerName}, Rating: ${rating} stars`;
+				
+				    const reviewTextDiv = document.createElement("div");
+				    reviewTextDiv.textContent = `Review: ${reviewText}`;
+				
+				    //adding the review to the page
+				    newReview.appendChild(reviewNameRatingDiv);
+				    newReview.appendChild(reviewTextDiv);
+				    reviewList.appendChild(newReview);
+				
+				    // Clear the text area and reset the rating
+				    document.getElementById("reviewerName").value = '';
+				    document.getElementById("newReview").value = '';
+				    rate(0);
+				
+				  } else {
+				    alert('Please write a review with your name and select a star rating.');
+				  }
 				}
 		    </script>
 	</head>
@@ -128,9 +170,29 @@
 			<br>
 			<br>
 			<span id="feedback_name">Add a Review</span><br>
+			
+			
 			<textarea id="feedback_content"></textarea><br>
-			<button id="feedback_submit">submit</button>
+			
+			<div id="feedback_stars">
+			  <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+			  <span class="ratingStar" onclick="rate(1)">★</span>
+			  <span class="ratingStar" onclick="rate(2)">★</span>
+			  <span class="ratingStar" onclick="rate(3)">★</span>
+			  <span class="ratingStar" onclick="rate(4)">★</span>
+			  <span class="ratingStar" onclick="rate(5)">★</span>
+			</div>
+			
+			<button id="feedback_submit" onclick="addReview()">submit</button>
 		</div>
+		
+		<div class="label_input">Reviews:
+		    <ul id="reviewList">
+				
+		    </ul>
+			<br>
+			<br>
+		  </div>
 		
 		
 		
