@@ -98,6 +98,19 @@ nav a {
   .tab button:hover {
     background-color: #ddd;
   }
+
+  .see-more-button{
+    display: inline-block;
+    padding: 0px 5px;
+    background-color: #c93232;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 5px;
+}
   
 
   
