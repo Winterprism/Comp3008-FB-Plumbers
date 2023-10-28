@@ -44,6 +44,12 @@ body {
   box-shadow: 3px 3px 5px #3f3d3d;
 }
 
+/* Change the background and text color when clicked */
+.button-style:active {
+  background-color: #c93232; 
+  color: #fff;
+}
+
 /************************************************/
 /*  CSS for profile section                     */
 /************************************************/
