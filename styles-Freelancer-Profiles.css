@@ -23,6 +23,11 @@
   color: #fff;
 }
 
+.button-style:hover {
+  background-color: #c93232; 
+  color: #fff;
+}
+
 /************************************************/
 /*  CSS for profile section                     */
 /************************************************/
