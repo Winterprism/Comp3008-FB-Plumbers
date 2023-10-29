@@ -23,6 +23,7 @@
     border-radius: 10px 10px 0 0;
     padding: 14px 16px;
     font-size: 17px;
+    font-weight: bold;
     margin-right: 10px;
 }
 
@@ -61,6 +62,7 @@
     border-radius: 5px solid black;  
     margin-left: 10px; 
     margin-top:5px;
+    font-weight: bold;
   }
 
 /* styling for tags */

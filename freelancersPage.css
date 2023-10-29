@@ -35,7 +35,7 @@
   /* style for the stars */
 .stars {
     padding-left: 50px;
-    color: yellow;
+    color: rgb(255, 196, 0);
     font-size:20px ;
   }
 
@@ -43,7 +43,6 @@
 .price-badge-container-freelancer{
   display:inline-block;
   margin-left: 55px;
-  color: yellow;
 }  
 .price-badge-freelancer {
   width: 25px;

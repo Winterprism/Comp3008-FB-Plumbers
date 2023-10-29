@@ -136,6 +136,10 @@
 }
 
 /* Style the review stars */
+.headerStars{
+  display: inline-block;
+  color: rgb(255, 196, 0);
+}
 .stars {
   display: inline-block;
 }
