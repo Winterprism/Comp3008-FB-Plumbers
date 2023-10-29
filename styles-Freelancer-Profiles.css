@@ -1,5 +1,25 @@
 /* styles-Freelancer-Profiles.css */
-/* top right button container */
+/************************************************/
+/*  CSS for header section                      */
+/************************************************/
+
+.header-title {
+  font-size: 32px;
+}
+.header {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-weight: bold;
+}
+.logo {
+  height: 50px;
+  vertical-align: middle;
+}
 .top-right-buttons {
   position: absolute;
   top: 10px;
