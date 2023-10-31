@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="company_profiles.css">
-		<link rel="stylesheet" type="text/css" href="header.css">
 		<title></title>
 		
 		<script>
@@ -66,16 +65,26 @@
 	<body>
 		
 		<!-- navigation bar -->
-		<header>
-			<h1><img src="logo.jpg">F&B Plumbers</h1>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="companiesPage.html">Find a Plumber</a></li>
-					<li><a href="join.html">Join Us</a></li>
-				</ul>
-			</nav>
-		</header>
+		<div id="title">
+			
+			<!-- logo -->
+			<div id="title_left">
+				<img id="logo" src="./logo.jpg"/>
+			</div>
+			
+			<!-- Other information -->
+			<div id="title_right">
+				<span id="logo_name">F&B Plumbers</span>
+				
+				<button id="home" onclick="window.location.href='index.html'">Home</button>
+				<button id="find_plumber" onclick="window.location.href='companiesPage.html'">Find a Plumber</button>		
+				<button id="join_us" onclick="window.location.href='join.html'">Join Us</button>
+			</div>
+			
+		</div>
+		
+		
+		
 		<!-- Company Information -->
 		<div id="company_info">
 			
@@ -174,7 +183,7 @@
 			  <span class="ratingStar" onclick="rate(5)">★</span>
 			</div>
 			
-			<button id="feedback_submit" onclick="addReview()">submit</button>
+			<button id="feedback_submit" onclick="addReview()">Add Reviews</button>
 		</div>
 		
 		<div class="label_input">Reviews:

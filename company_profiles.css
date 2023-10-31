@@ -64,12 +64,16 @@
 	height: 230px;
 	margin-left: 10%;
 	border: 2px solid black;
+	
+	
 }
 
 #company_title{
 	clear: both;
 	padding-left: 2%;
 	margin-bottom: 1px;
+	font-size: 25px;
+	font-style: normal;
 }
 
 #price1{
@@ -96,11 +100,10 @@
 #star{
 	font-size: 20px;
 	margin-left: 2%;
-	color: rgb(255, 196, 0);
 }
 
 #contact_info{
-	margin-left: 48%;
+	margin-left: 40%;
 	
 	color: #000000;
 	background-color: #ffffff;
@@ -108,6 +111,12 @@
 	border: 2px solid #000000; 
 	border-radius: 0; 
 	box-shadow: 5px 5px 5px #3f3d3d;
+}
+
+	
+#contact_info :hover{
+    background-color: #c93232; 
+    color: #fff;
 }
 
 #contact_us{
@@ -163,8 +172,10 @@
 	box-shadow: 1px 2px 2px #3f3d3d;
 }
 
-
-
+#contact_info:hover{
+    background-color: #c93232; 
+    color: #fff;
+}
 
 
 
@@ -206,6 +217,13 @@
 	font-size: 10px;
 	margin-top: 1.5%;
 	margin-right: 2%;
+	
+	color: #000000;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	border: 2px solid #000000; 
+	border-radius: 0; 
+	box-shadow: 5px 5px 5px #3f3d3d;
 }
 
 #Right_employee{
@@ -257,6 +275,13 @@
 	font-size: 10px;
 	margin-top: 1.5%;
 	margin-right: 2%;
+	
+	color: #000000;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	border: 2px solid #000000; 
+	border-radius: 0; 
+	box-shadow: 5px 5px 5px #3f3d3d;
 }
 
 #Left_employee_2{
@@ -269,6 +294,16 @@
 	border: 2px solid #000000;
 	border-radius: 0;
 	box-shadow: 1px 2px 2px #3f3d3d;
+}
+
+#contact_info_right:hover{
+    background-color: #c93232; 
+    color: #fff;
+}
+
+#contact_info_left:hover{
+    background-color: #c93232; 
+    color: #fff;
 }
 
 
@@ -326,9 +361,18 @@
 	float: right;
 	margin-right: 12%;
 	margin-top: 0.5%;
+	width:100px;
+	height:30px;
+	
+	border: 2px solid #000000;
+	border-radius: 0;
+	box-shadow: 1px 2px 2px #3f3d3d;
 }
 
-
+#feedback_submit:hover{
+    background-color: #c93232; 
+    color: #fff;
+}
 
 
 
